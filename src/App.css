@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  font-size: 40px;
 }
 
 .App-logo {
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  height: 10vh;
+  width: 90vw;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: flex-end;
 }
